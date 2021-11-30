@@ -3,6 +3,13 @@ kind: SourceConfig
 metadata:
   creationTimestamp: null
 spec:
+  groups:
+  - owner: PaulGiant
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: jenkins-x-test
+    scheduler: in-repo
   jenkinsServers:
   - groups:
     - owner: PaulGiant
