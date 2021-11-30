@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - PaulGiant/jx3-kubernetes
-      target_url: http://lighthouse-jx./merge/status
+      target_url: http://lighthouse-jx.51.105.116.5.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
