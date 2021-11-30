@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: PaulGiant
+    provider: github
+    repository: jenkins-x-test
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: paulgiant-jenkins-x-test
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/PaulGiant/jenkins-x-test.git
+  org: PaulGiant
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jenkins-x-test
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/PaulGiant/jenkins-x-test
